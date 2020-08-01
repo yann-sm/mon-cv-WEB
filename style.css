@@ -145,11 +145,13 @@ mark {
         position: absolute;
         width: 100%;
         height: 240px;
+        margin-right: -10px;
     }
 
     .cv {
         margin-top: 250px;
         margin-left: 10px;
+        margin-right: 10px;
     }
 
     .date {
@@ -159,7 +161,6 @@ mark {
 
     .date__item {
         width: 270px;
-        margin-right: 10px;
     }
 
     .recommandation {
