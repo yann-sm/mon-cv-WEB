@@ -1,0 +1,173 @@
+﻿
+.container {
+    justify-content: flex-start;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* SIDEBBAR */
+.aboutMe {
+    width: 250px;
+    height: auto;
+    margin-left: -8px;
+    margin-top: -10px;
+    padding-top: 40px;
+    background-color: #424242; /* #FDD835 #FFCA28*/
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.item__img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 3px white;
+}
+
+.item {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.item__contact {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.item__aboutMe {
+    margin-left: 30px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.item h3 {
+    color: #424242;
+    background-color: #FFCA28;
+    padding: 5px;
+}
+
+.item__loisirs {
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+#loisir {
+    margin-top: 240px;
+    padding-bottom: 20px;
+}
+
+.item__loisirs__circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+/* CV */
+body {
+    font-family: Geneva;
+}
+
+.contenu {
+    margin-top: 100px;
+}
+
+.contenu__title {
+    margin-right: 20px;
+}
+
+.cv {
+    margin-left: 40px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+    .name h3 {
+        margin-top: -30px;
+    }
+
+mark {
+    background-color: white;
+    color: #FFCA28;
+}
+
+.hr {
+    border: 1px solid #FFCA28;
+    margin-top: -10px;
+}
+
+.hr--modif {
+    width: 60px;
+    margin-top: -20px;
+}
+
+.dotCircle {
+    color: #FFCA28;
+    width: 30px;
+    margin-top: 14px;
+}
+
+.date {
+    width: 200px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.date__item {
+    left: 0;
+    width: 350px;
+}
+
+.fontItalic {
+    font-style: italic;
+}
+
+.recommandation {
+    margin-left: -350px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media all and (max-width: 830px) {
+    .aboutMe {
+        position: absolute;
+        width: 100%;
+        height: 240px;
+    }
+
+    .cv {
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+
+    .date {
+        width: 200px;
+        text-align: left;
+    }
+
+    .date__item {
+        left: 0;
+        width: 250px;
+    }
+
+    .recommandation {
+        margin-left: -250px;
+    }
+
+    .item__loisirs__circle {
+        margin-top: 0px;
+    }
+}
