@@ -126,7 +126,6 @@ mark {
 }
 
 .date__item {
-    left: 0;
     width: 350px;
 }
 
@@ -154,13 +153,13 @@ mark {
     }
 
     .date {
-        width: 200px;
+        width: 180px;
         text-align: left;
     }
 
     .date__item {
-        left: 0;
-        width: 250px;
+        width: 270px;
+        margin-right: 10px;
     }
 
     .recommandation {
