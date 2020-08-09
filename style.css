@@ -1,6 +1,10 @@
 ﻿
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+
 .container {
     justify-content: flex-start;
+    font-family: 'Almarai', sans-serif;
 }
 
 .box {
@@ -10,30 +14,40 @@
 }
 
 /* SIDEBBAR */
+h3 {
+    font-weight: 400;
+}
+
 .aboutMe {
     width: 250px;
     height: auto;
     margin-left: -8px;
     margin-top: -10px;
     padding-top: 40px;
-    background-color: #424242; /* #FDD835 #FFCA28*/
+    background-color: #FFCA28; /* #FDD835 #FFCA28*/
     overflow-x: auto;
     overflow-y: auto;
 }
 
 .item__img {
-    width: 120px;
+    overflow: hidden;
+    width: 150px;
     height: 150px;
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid #FFCA28;
     border-radius: 50%;
+    text-align: center;
     box-shadow: 1px 1px 3px 3px #616161;
+}
+.item__img__photo {
+    height: 210px;
+    width: auto;
 }
 
 .item {
     text-align: center;
     margin-top: 40px;
-    color: white;
+    color: black;
 }
 .item--fontSize {
     font-size: 13px;
@@ -58,8 +72,8 @@
 }
 
 .item h3 {
-    color: #424242;
-    background-color: #FFCA28;
+    color: #FFCA28;
+    background-color: #424242;
     padding: 5px;
 }
 
@@ -76,7 +90,7 @@
 .item__loisirs__circle {
     width: 50px;
     height: 50px;
-    border: 1px solid white;
+    border: 1px solid #424242;
     margin-top: 20px;
     border-radius: 50%;
     margin-right: 15px;
@@ -84,8 +98,22 @@
 
 
 /* CV */
+.color__font {
+    color: #424242;
+}
+
+h1 {
+ font-weight: 100;
+}
+h2 {
+    font-weight: 400;
+}
+h4 {
+    font-weight: 400;
+}
+
 body {
-    font-family: Geneva;
+  
 }
 
 .contenu {
@@ -102,6 +130,7 @@ body {
 
 .name {
     font-size: 20px;
+    font-weight: lighter;
 }
 
 .name h3 {
@@ -140,7 +169,7 @@ mark {
 }
 
 .fontItalic {
-    font-style: italic;
+    font-style: ;
 }
 
 .recommandation {
@@ -153,13 +182,14 @@ mark {
 @media all and (max-width: 830px) {
     .aboutMe {
         position: absolute;
-        width: 100%;
-        height: 240px;
-        margin-right: -10px;
+        margin-top: 1450px;
+        width: 105%;
+        height: auto;
+        padding-left: 5%;
     }
 
     .cv {
-        margin-top: 250px;
+       /* margin-top: 1100px;*/
         margin-left: 10px;
         margin-right: 10px;
     }
