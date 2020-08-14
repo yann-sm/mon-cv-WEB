@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -11,11 +12,17 @@
     <title> MON CV WEB </title>
 </head>
 <body>
+ 
+
     <div class="container box">
         <div class="box">
             <div class="aboutMe">
-                <div class="item__img">
-                    <img class="item__img__photo" src="moi.jpg" alt="photo de moi">
+                <div class="aboutMe__responsive">
+                    <div class="aboutMe__responsive__img">
+                        <div class="item__img">
+                            <img class="item__img__photo" src="moi.jpg" alt="photo de moi">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="item">
@@ -36,7 +43,7 @@
 
                 <div class="item">
                     <h3>À PROPOS DE MOI</h3>
-                    <div class="item__aboutMe item--fontSize color__font">
+                    <div class="item__aboutMe item--fontSize item--fontFamily">
                         <p>
                             Assistant commercial, cariste et gestionnaire de stock au sein d'une entreprise
                             spécialisé dans le domaine du loisir (bllard, baby-foot, fléchette) j'ai fais
@@ -84,15 +91,15 @@
                     <br>
                     <div class="box">
                         <div class="dotCircle">
-                            <i class="far fa-dot-circle"></i>
+                            <i class="far fa-dot-circle dot__Circle--little"></i>
                         </div>
                         <div class="date item--fontSize color__font">
                             <p>2020 - 2021<br>Saint-Malo</p>
                         </div>
                         <div class="date__item color__font">
                             <h4>OPENCLASSROOMS</h4>
-                            <p class="item--fontSize">Developpeur Web Junior</p>
-                            <p class="fontItalic item--fontSize">
+                            <p class="item--fontSize item--fontFamily item--fontWeight">Developpeur Web Junior</p>
+                            <p class="item--fontSize item--fontFamily">
                                 Apprentissage des méthodes et tecnologies nécessaire pour
                                 devenir développeur web (HTML, CSS, Javascript).
                             </p>
@@ -101,16 +108,18 @@
 
                     <div class="box">
                         <div class="dotCircle">
-                            <i class="fas fa-circle fa-1x"></i>
+                            <i class="fas fa-circle dotCircle--little"></i>
                         </div>
                         <div class="date item--fontSize color__font">
                             <p>2006 - 2008<br>Saint-Malo</p>
                         </div>
                         <div class="date__item color__font">
                             <h4>LYCÉE LA PROVIDENCE - BEP TAH</h4>
-                            <p class="item--fontSize">Technique de l'Architecture et de l'Habitat</p>
-                            <p class="fontItalic item--fontSize">Apprentissage du dessin industriel, relevé topographique,
-                            calcul de charge et le métré d'un projet.</p>
+                            <p class="item--fontSize item--fontFamily item--fontWeight">Technique de l'Architecture et de l'Habitat</p>
+                            <p class="item--fontSize item--fontFamily">
+                                Apprentissage du dessin industriel, relevé topographique,
+                                calcul de charge et le métré d'un projet.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -122,44 +131,46 @@
                     <br>
                     <div class="box">
                         <div class="dotCircle">
-                            <i class="far fa-dot-circle"></i>
+                            <i class="far fa-dot-circle dot__Circle--little"></i>
                         </div>
                         <div class="date color__font">
                             <p>Août 2019 -<br>Poste actuel<br>Saint-Malo</p>
                         </div>
                         <div class="date__item color__font">
                             <h4>SUPREME</h4>
-                            <p class="item--fontSize">Assistant Commercial, Gestionnaire de stock</p>
-                            <p class="fontItalic item--fontSize">Au sein de supréme, spécialiste du billard depuis 30 ans,
-                            je m'occupe de l'éxpédition des commandes, de la récéption des marchandises,
-                            de la gestion des stocks et des clients présent au showroom. </p>
+                            <p class="item--fontSize item--fontFamily item--fontWeight">Assistant Commercial, Gestionnaire de stock</p>
+                            <p class="item--fontSize item--fontFamily">
+                                Au sein de supréme, spécialiste du billard depuis 30 ans,
+                                je m'occupe de l'éxpédition des commandes, de la récéption des marchandises,
+                                de la gestion des stocks et des clients présent au showroom.
+                            </p>
                         </div>
                     </div>
                     <div class="box">
                         <div class="dotCircle">
-                            <i class="fas fa-circle fa-1x"></i>
+                            <i class="fas fa-circle dotCircle--little"></i>
                         </div>
                         <div class="date color__font">
                             <p>2011 - 2019 <br>Saint-Malo</p>
                         </div>
                         <div class="date__item color__font">
                             <h4>LE GUEVEL</h4>
-                            <p class="item--fontSize">Cariste</p>
-                            <p class="fontItalic item--fontSize">Prise en charge de marchandise, mise à quai des camions, chargement et déchargement de marchandise. </p>
+                            <p class="item--fontSize item--fontFamily item--fontWeight">Cariste</p>
+                            <p class="item--fontSize item--fontFamily">Prise en charge de marchandise, mise à quai des camions, chargement et déchargement de marchandise. </p>
                         </div>
                     </div>
 
                     <div class="box">
                         <div class="dotCircle">
-                            <i class="fas fa-circle fa-1x"></i>
+                            <i class="fas fa-circle dotCircle--little"></i>
                         </div>
                         <div class="date color__font">
                             <p>2008 - 2011<br>Sissonnes</p>
                         </div>
                         <div class="date__item color__font">
                             <h4>CENZUB - ARMÉE DE TERRE</h4>
-                            <p class="item--fontSize">Caporal, chef d'équipe</p>
-                            <p class="fontItalic item--fontSize">Formé au combat en Zone Urbaine, notre rôle était de former à notre tour, le personnel partant en opération au combat en zone urbaine. </p>
+                            <p class="item--fontSize item--fontFamily item--fontWeight">Caporal, chef d'équipe</p>
+                            <p class="item--fontSize item--fontFamily">Formé au combat en Zone Urbaine, notre rôle était de former à notre tour, le personnel partant en opération au combat en zone urbaine. </p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +183,9 @@
                     <div class="box recommandation color__font">
                         <div>
                             <p>MAXIME KIEMAN</p>
-                            <p class="item--fontSize">Directeur, Mon agence<br> Téléphone :<br> Email : name@email.com</p>
+                            <p class="item--fontSize">Directeur, Mon agence<br>
+                            Téléphone : 06 00 00 00 00<br>
+                            <span class="item--fontFamily">Email : name@email.com</span></p>
                         </div>
 
                     </div>

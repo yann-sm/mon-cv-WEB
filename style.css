@@ -1,6 +1,6 @@
 ﻿
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap');
 
 .container {
     justify-content: flex-start;
@@ -24,20 +24,19 @@ h3 {
     margin-left: -8px;
     margin-top: -10px;
     padding-top: 40px;
-    background-color: #FFCA28; /* #FDD835 #FFCA28*/
+    background-color: #F4C402; /* #FDD835 #FFCA28 #FFCA28*/
     overflow-x: auto;
     overflow-y: auto;
 }
 
 .item__img {
     overflow: hidden;
-    width: 150px;
+    width: 145px;
     height: 150px;
     margin: auto;
-    border: 1px solid #FFCA28;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 3px 3px #616161;
+    box-shadow: 1px 1px 5px #757575; /*#FFB300*/
 }
 .item__img__photo {
     height: 210px;
@@ -51,6 +50,14 @@ h3 {
 }
 .item--fontSize {
     font-size: 13px;
+    margin-top: -5px;
+}
+.item--fontFamily {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #616161;
+}
+.item--fontWeight {
+    font-weight: 600;
 }
 
 .item__contact {
@@ -72,7 +79,7 @@ h3 {
 }
 
 .item h3 {
-    color: #FFCA28;
+    color: #F4C402;
     background-color: #424242;
     padding: 5px;
 }
@@ -83,15 +90,15 @@ h3 {
 }
 
 #loisir {
-    margin-top: 190px;
-    padding-bottom: 40px;
+    margin-top: 260px;
+    padding-bottom: 20px;
 }
 
 .item__loisirs__circle {
     width: 50px;
     height: 50px;
     border: 1px solid #424242;
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -99,11 +106,11 @@ h3 {
 
 /* CV */
 .color__font {
-    color: #424242;
+    color: #424242 /*#424242#616161*/;
 }
 
 h1 {
- font-weight: 100;
+    font-weight: 100;
 }
 h2 {
     font-weight: 400;
@@ -117,15 +124,17 @@ body {
 }
 
 .contenu {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .contenu__title {
     margin-right: 20px;
+    color: #F4C402;
 }
 
 .cv {
     margin-left: 40px;
+    margin-top: 30px;
 }
 
 .name {
@@ -134,17 +143,18 @@ body {
 }
 
 .name h3 {
-     margin-top: -30px;
+     margin-top: -20px;
 }
 
 mark {
     background-color: white;
-    color: #FFCA28;
+    color: #F4C402;
 }
 
 .hr {
-    border: 1px solid #FFCA28;
+    border: 0.5px solid #F4C402;
     margin-top: -10px;
+    
 }
 
 .hr--modif {
@@ -153,9 +163,15 @@ mark {
 }
 
 .dotCircle {
-    color: #FFCA28;
+    color: #F4C402;
     width: 30px;
-    margin-top: 14px;
+    margin-top: 11px;
+}
+.dot__Circle--little {
+    font-size: 14px;
+}
+.dotCircle--little {
+    font-size: 10px;
 }
 
 .date {
@@ -168,34 +184,53 @@ mark {
     width: 350px;
 }
 
-.fontItalic {
-    font-style: ;
-}
-
 .recommandation {
-    margin-left: -350px;
+    margin-left: -320px;
 }
 
 
 
 /* MEDIA QUERIES */
 @media all and (max-width: 830px) {
+
     .aboutMe {
         position: absolute;
-        margin-top: 1450px;
-        width: 105%;
+        width: 104%;
         height: auto;
         padding-left: 5%;
+        padding-right: 0;
+        z-index: 1;
     }
 
+    .item__aboutMe {
+        margin-right: 30px;
+    }
+
+    .aboutMe__responsive {
+        background-color: white;
+        height: 1550px;
+        z-index: 2; 
+    }
+    .aboutMe__responsive__img {
+        padding-top: 40px;
+        position: relative;
+        background-color: #F4C402;
+        margin-top: -40px;
+        width: auto;
+        height: 180px;
+    }
+
+
     .cv {
-       /* margin-top: 1100px;*/
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-top: 200px;
+        margin-left: 3em;
+        margin-right: 3em;
+        position: relative;
+        z-index: 2;
     }
 
     .date {
-        width: 180px;
+        width: 100px;
         text-align: left;
     }
 
@@ -204,7 +239,18 @@ mark {
     }
 
     .recommandation {
-        margin-left: -250px;
+        margin-left: -220px;
+    }
+
+    .item {
+        margin-top: -20px;
+    }
+    .item__contact {
+        margin-bottom: 40px;
+    }
+
+    #loisir {
+        margin-top: 30px;
     }
 
     .item__loisirs__circle {
