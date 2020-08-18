@@ -24,7 +24,7 @@ h3 {
     margin-left: -8px;
     margin-top: -10px;
     padding-top: 40px;
-    background-color: #F4C402; /* #FDD835 #FFCA28 #FFCA28*/
+    background-color: #F4C402; 
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -36,7 +36,7 @@ h3 {
     margin: auto;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 5px #757575; /*#FFB300*/
+    box-shadow: 1px 1px 5px #757575; 
 }
 .item__img__photo {
     height: 210px;
@@ -54,7 +54,7 @@ h3 {
 }
 .item--fontFamily {
     font-family: 'Libre Franklin', sans-serif;
-    color: #4F4F4F /*#616161*/;
+    color: #4F4F4F;
 }
 .item--fontWeight {
     font-weight: 700;
@@ -71,12 +71,6 @@ h3 {
     text-align: left;
     margin-right: 30px;
     text-align: justify;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
 }
 
 .item h3 {
@@ -107,7 +101,7 @@ h3 {
 
 /* CV */
 .color__font {
-    color: #424242 /*#424242#616161*/;
+    color: #424242;
 }
 
 h1 {
@@ -301,9 +295,6 @@ mark {
         background-color: white;
         height: 1770px;
         z-index: 2;
-    }
-    .cv {
-        margin-left:;
     }
     .date {
         width: 100px;
