@@ -1,6 +1,6 @@
 ﻿
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 
 .container {
     justify-content: flex-start;
@@ -54,10 +54,11 @@ h3 {
 }
 .item--fontFamily {
     font-family: 'Libre Franklin', sans-serif;
-    color: #616161;
+    color: #4F4F4F /*#616161*/;
 }
 .item--fontWeight {
-    font-weight: 600;
+    font-weight: 700;
+    margin-top: -10px;
 }
 
 .item__contact {
@@ -110,7 +111,7 @@ h3 {
 }
 
 h1 {
-    font-weight: 100;
+    font-weight: 200;
 }
 h2 {
     font-weight: 400;
@@ -188,8 +189,6 @@ mark {
     margin-left: -320px;
 }
 
-
-
 /* MEDIA QUERIES */
 @media all and (max-width: 830px) {
 
@@ -257,3 +256,101 @@ mark {
         margin-top: 0px;
     }
 }
+
+
+@media all and (max-width: 425px) {
+    .box {
+        width: 101%;
+    }
+    .aboutMe {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        z-index: 1;
+    }
+    .aboutMe__responsive {
+        background-color: white;
+        height: 1770px;
+        z-index: 2;
+    }
+    .date {
+        width: 100px;
+        text-align: left;
+    }
+    .date__item {
+        width: 220px;
+    }
+    .recommandation {
+        margin-left: -90px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .box{
+        width: 101%;
+    }
+    .aboutMe {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        z-index: 1;
+    }
+    .aboutMe__responsive {
+        background-color: white;
+        height: 1770px;
+        z-index: 2;
+    }
+    .cv {
+        margin-left:;
+    }
+    .date {
+        width: 100px;
+        text-align: left;
+        margin-left: -10px;
+    }
+    .date__item {
+        width: 180px;
+    }
+    .recommandation {
+        margin-left: -70px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .box {
+        width: 102%;
+    }
+    .aboutMe {
+        margin-top: -10px;
+        margin-right: -1px;
+        position: absolute;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+
+    .aboutMe__responsive {
+        background-color: white;
+        margin-left: -5px;
+        height: 1770px;
+        z-index: 2;
+    }
+    .date {
+        width: 100px;
+        text-align: left;
+    }
+
+    .date__item {
+        width: 180px;
+    }
+
+    .recommandation {
+        margin-left: -70px;
+    }
+}
+
+
+
+
