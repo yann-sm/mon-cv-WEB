@@ -29,7 +29,7 @@ h3 {
     overflow-y: auto;
 }
 
-.item__img {
+.item-img {
     overflow: hidden;
     width: 145px;
     height: 150px;
@@ -38,7 +38,7 @@ h3 {
     text-align: center;
     box-shadow: 1px 1px 5px #757575; 
 }
-.item__img__photo {
+.item-img-photo {
     height: 210px;
     width: auto;
 }
@@ -48,25 +48,25 @@ h3 {
     margin-top: 40px;
     color: black;
 }
-.item--fontSize {
+.item-fontSize {
     font-size: 13px;
     margin-top: -5px;
 }
-.item--fontFamily {
+.item-fontFamily {
     font-family: 'Libre Franklin', sans-serif;
     color: #4F4F4F;
 }
-.item--fontWeight {
+.item-fontWeight {
     font-weight: 700;
     margin-top: -10px;
 }
 
-.item__contact {
+.item-contact {
     text-align: left;
     margin-left: 30px;
 }
 
-.item__aboutMe {
+.item-aboutMe {
     margin-left: 30px;
     text-align: left;
     margin-right: 30px;
@@ -79,7 +79,7 @@ h3 {
     padding: 5px;
 }
 
-.item__loisirs {
+.item-loisirs {
     margin-left: 30px;
     margin-right: 15px;
 }
@@ -89,7 +89,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-.item__loisirs__circle {
+.item-loisirs-circle {
     width: 50px;
     height: 50px;
     border: 1px solid #424242;
@@ -100,7 +100,7 @@ h3 {
 
 
 /* CV */
-.color__font {
+.color-font {
     color: #424242;
 }
 
@@ -118,11 +118,11 @@ body {
   
 }
 
-.contenu {
+.marginTop-cv{
     margin-top: 90px;
 }
 
-.contenu__title {
+.contenu-title {
     margin-right: 20px;
     color: #F4C402;
 }
@@ -152,7 +152,7 @@ mark {
     
 }
 
-.hr--modif {
+.hr-modif {
     width: 60px;
     margin-top: -20px;
 }
@@ -162,10 +162,10 @@ mark {
     width: 30px;
     margin-top: 11px;
 }
-.dot__Circle--little {
+.dot-Circle--little {
     font-size: 14px;
 }
-.dotCircle--little {
+.dotCircle-little {
     font-size: 10px;
 }
 
@@ -175,7 +175,7 @@ mark {
     font-size: 13px;
 }
 
-.date__item {
+.date-item {
     width: 350px;
 }
 
@@ -194,17 +194,15 @@ mark {
         padding-right: 0;
         z-index: 1;
     }
-
-    .item__aboutMe {
+    .item-aboutMe {
         margin-right: 30px;
     }
-
-    .aboutMe__responsive {
+    .aboutMe-responsive {
         background-color: white;
         height: 1550px;
         z-index: 2; 
     }
-    .aboutMe__responsive__img {
+    .aboutMe-responsive-img {
         padding-top: 40px;
         position: relative;
         background-color: #F4C402;
@@ -212,8 +210,6 @@ mark {
         width: auto;
         height: 180px;
     }
-
-
     .cv {
         margin-top: 200px;
         margin-left: 3em;
@@ -221,32 +217,26 @@ mark {
         position: relative;
         z-index: 2;
     }
-
     .date {
         width: 100px;
         text-align: left;
     }
-
-    .date__item {
+    .date-item {
         width: 270px;
     }
-
     .recommandation {
         margin-left: -220px;
     }
-
     .item {
         margin-top: -20px;
     }
-    .item__contact {
+    .item-contact {
         margin-bottom: 40px;
     }
-
     #loisir {
         margin-top: 30px;
     }
-
-    .item__loisirs__circle {
+    .item-loisirs-circle {
         margin-top: 0px;
     }
 }
@@ -263,7 +253,7 @@ mark {
         padding-left: 0;
         z-index: 1;
     }
-    .aboutMe__responsive {
+    .aboutMe-responsive {
         background-color: white;
         height: 1770px;
         z-index: 2;
@@ -272,7 +262,7 @@ mark {
         width: 100px;
         text-align: left;
     }
-    .date__item {
+    .date-item {
         width: 220px;
     }
     .recommandation {
@@ -291,7 +281,7 @@ mark {
         padding-left: 0;
         z-index: 1;
     }
-    .aboutMe__responsive {
+    .aboutMe-responsive {
         background-color: white;
         height: 1770px;
         z-index: 2;
@@ -301,7 +291,7 @@ mark {
         text-align: left;
         margin-left: -10px;
     }
-    .date__item {
+    .date-item {
         width: 180px;
     }
     .recommandation {
@@ -322,7 +312,7 @@ mark {
         z-index: 1;
     }
 
-    .aboutMe__responsive {
+    .aboutMe-responsive {
         background-color: white;
         margin-left: -5px;
         height: 1770px;
@@ -333,7 +323,7 @@ mark {
         text-align: left;
     }
 
-    .date__item {
+    .date-item {
         width: 180px;
     }
 
