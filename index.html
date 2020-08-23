@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="la description du site web">
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -12,12 +13,11 @@
     <title> MON CV WEB </title>
 </head>
 <body>
- 
 
-    <section class="container box">
+    <section class="container fontMain">
         <!-- section barre latérale de présentation -->
-        <section class="aboutMe">
-            <section class="aboutMe-responsive">
+        <section class="container aboutMe">
+            <section class="aboutMe-responsive"><!--Permet de scindé en deux juste après l'image la sidebar-->
                 <div class="aboutMe-responsive-img">
                     <div class="item-img">
                         <img class="item-img-photo" src="moi.jpg" alt="photo de moi">
@@ -25,7 +25,7 @@
                 </div>
             </section>
 
-            <section class="item">
+            <section class="aboutMe-item ">
                 <h3>CONTACT</h3>
                 <div class="item-contact color-font">
                     <p class="item-fontSize">Adresse<br> Saint-Malo, France</p>
@@ -36,7 +36,7 @@
                 </div>
             </section>
 
-            <section class="item">
+            <section class="aboutMe-item">
                 <h3>À PROPOS DE MOI</h3>
                 <div class="item-aboutMe item-fontSize item-fontFamily">
                     <p>
@@ -52,10 +52,10 @@
                 </div>
             </section>
 
-            <section class="item" id="loisir">
+            <section class="aboutMe-item" id="loisir">
                 <h3>LOISIRS</h3>
                 <div class="item-loisirs color-font">
-                    <div class="box">
+                    <div class="container">
                         <div class="item-loisirs-circle">
                             <i class="fas fa-running fa-2x" style="margin-top: 8px;"></i>
                         </div>
@@ -80,11 +80,11 @@
             </div>
        
             <section class="marginTop-cv">
-                <h2><i class="fas fa-user-graduate fa-1x contenu-title"></i> FORMATION</h2>
+                <h2><i class="fas fa-user-graduate fa-1x contenu-title"></i> FORMATION </h2>
         
                 <div class="hr"></div>
                 <br>
-                <div class="box">
+                <div class="container">
                     <div class="dotCircle">
                         <i class="far fa-dot-circle dot-Circle--little"></i>
                     </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="container">
                     <div class="dotCircle">
                         <i class="fas fa-circle dotCircle-little"></i>
                     </div>
@@ -124,7 +124,7 @@
 
                 <div class="hr"></div>
                 <br>
-                <div class="box">
+                <div class="container">
                     <div class="dotCircle">
                         <i class="far fa-dot-circle dot-Circle-little"></i>
                     </div>
@@ -141,7 +141,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="box">
+                <div class="container">
                     <div class="dotCircle">
                         <i class="fas fa-circle dotCircle-little"></i>
                     </div>
@@ -156,7 +156,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="container">
                     <div class="dotCircle">
                         <i class="fas fa-circle dotCircle-little"></i>
                     </div>
@@ -171,13 +171,13 @@
                     </div>
                 </div>
             </section>
-
+            
             <section>
                 <h2><i class="fas fa-pencil-alt fa-1x contenu-title"></i> RECOMMANDATIONS</h2>
 
                 <div class="hr"></div>
                 <br>
-                <div class="box recommandation color-font">
+                <div class="container recommandation color-font">
                     <div>
                         <p>MAXIME KIEMAN</p>
                         <p class="item-fontSize">Directeur, Mon agence<br>

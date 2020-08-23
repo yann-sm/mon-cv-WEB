@@ -2,33 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 
+
 .container {
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fontMain {
     font-family: 'Almarai', sans-serif;
 }
 
-.box {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
 /* SIDEBBAR */
+.aboutMe {
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding-top: 40px;
+    background-color: #F4C402;
+}
 h3 {
     font-weight: 400;
 }
-
-.aboutMe {
-    width: 250px;
-    height: auto;
-    margin-left: -8px;
-    margin-top: -10px;
-    padding-top: 40px;
-    background-color: #F4C402; 
-    overflow-x: auto;
-    overflow-y: auto;
-}
-
 .item-img {
     overflow: hidden;
     width: 145px;
@@ -43,11 +37,15 @@ h3 {
     width: auto;
 }
 
-.item {
+.aboutMe-item {
     text-align: center;
-    margin-top: 40px;
-    color: black;
 }
+.aboutMe-item h3 {
+    color: #F4C402;
+    background-color: #424242;
+    padding: 5px;
+}
+
 .item-fontSize {
     font-size: 13px;
     margin-top: -5px;
@@ -60,25 +58,17 @@ h3 {
     font-weight: 700;
     margin-top: -10px;
 }
-
 .item-contact {
     text-align: left;
     margin-left: 30px;
+    height: 180px;
 }
-
 .item-aboutMe {
     margin-left: 30px;
     text-align: left;
     margin-right: 30px;
     text-align: justify;
 }
-
-.item h3 {
-    color: #F4C402;
-    background-color: #424242;
-    padding: 5px;
-}
-
 .item-loisirs {
     margin-left: 30px;
     margin-right: 15px;
@@ -88,7 +78,6 @@ h3 {
     margin-top: 260px;
     padding-bottom: 20px;
 }
-
 .item-loisirs-circle {
     width: 50px;
     height: 50px;
@@ -103,9 +92,32 @@ h3 {
 .color-font {
     color: #424242;
 }
+.cv {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.name h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.name h3 {
+    margin-top: -35px;
+}
+mark {
+    background-color: white;
+    color: #F4C402;
+}
+.hr {
+    border: 0.5px solid #F4C402;
+    margin-top: -10px;
+}
+.hr-modif {
+    width: 60px;
+    margin-top: -15px;
+}
 
-h1 {
-    font-weight: 200;
+.marginTop-cv{
+    margin-top: 90px;
 }
 h2 {
     font-weight: 400;
@@ -113,50 +125,10 @@ h2 {
 h4 {
     font-weight: 400;
 }
-
-body {
-  
-}
-
-.marginTop-cv{
-    margin-top: 90px;
-}
-
 .contenu-title {
     margin-right: 20px;
     color: #F4C402;
 }
-
-.cv {
-    margin-left: 40px;
-    margin-top: 30px;
-}
-
-.name {
-    font-size: 20px;
-    font-weight: lighter;
-}
-
-.name h3 {
-     margin-top: -20px;
-}
-
-mark {
-    background-color: white;
-    color: #F4C402;
-}
-
-.hr {
-    border: 0.5px solid #F4C402;
-    margin-top: -10px;
-    
-}
-
-.hr-modif {
-    width: 60px;
-    margin-top: -20px;
-}
-
 .dotCircle {
     color: #F4C402;
     width: 30px;
@@ -168,34 +140,36 @@ mark {
 .dotCircle-little {
     font-size: 10px;
 }
-
 .date {
     width: 200px;
     text-align: left;
     font-size: 13px;
 }
-
 .date-item {
     width: 350px;
 }
-
 .recommandation {
     margin-left: -320px;
 }
 
 /* MEDIA QUERIES */
 @media all and (max-width: 830px) {
-
+    .container {
+        width: 100%;
+    }
     .aboutMe {
         position: absolute;
         width: 104%;
         height: auto;
-        padding-left: 5%;
-        padding-right: 0;
+        margin-left: -8px;
+        padding-left: 20px;
         z-index: 1;
     }
-    .item-aboutMe {
-        margin-right: 30px;
+    .aboutMe-item {
+        margin-top: -20px;
+    }
+    .item-contact {
+        height: 200px;
     }
     .aboutMe-responsive {
         background-color: white;
@@ -206,7 +180,7 @@ mark {
         padding-top: 40px;
         position: relative;
         background-color: #F4C402;
-        margin-top: -40px;
+        margin-top: -50px;
         width: auto;
         height: 180px;
     }
@@ -225,13 +199,10 @@ mark {
         width: 270px;
     }
     .recommandation {
-        margin-left: -220px;
+        margin-left: -80px;
     }
     .item {
         margin-top: -20px;
-    }
-    .item-contact {
-        margin-bottom: 40px;
     }
     #loisir {
         margin-top: 30px;
@@ -243,9 +214,6 @@ mark {
 
 
 @media all and (max-width: 425px) {
-    .box {
-        width: 101%;
-    }
     .aboutMe {
         position: absolute;
         width: 100%;
@@ -271,9 +239,6 @@ mark {
 }
 
 @media all and (max-width: 375px) {
-    .box{
-        width: 101%;
-    }
     .aboutMe {
         position: absolute;
         width: 100%;
@@ -286,11 +251,6 @@ mark {
         height: 1770px;
         z-index: 2;
     }
-    .date {
-        width: 100px;
-        text-align: left;
-        margin-left: -10px;
-    }
     .date-item {
         width: 180px;
     }
@@ -300,9 +260,6 @@ mark {
 }
 
 @media all and (max-width: 320px) {
-    .box {
-        width: 102%;
-    }
     .aboutMe {
         margin-top: -10px;
         margin-right: -1px;
@@ -311,22 +268,17 @@ mark {
         height: auto;
         z-index: 1;
     }
-
     .aboutMe-responsive {
         background-color: white;
-        margin-left: -5px;
         height: 1770px;
         z-index: 2;
     }
-    .date {
-        width: 100px;
-        text-align: left;
+    .dotCircle {
+        width: 20px;
     }
-
     .date-item {
         width: 180px;
     }
-
     .recommandation {
         margin-left: -70px;
     }
