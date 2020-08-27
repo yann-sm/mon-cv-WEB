@@ -42,21 +42,12 @@ body {
 
 .item-img-photo {
     height: 210px;
-    margin: auto;
 }
 /* SIDEBBAR */
-.element:nth-child(2) {
-    margin-left: 260px;
-    height: auto;
-    margin-top: -180px;
-    flex-direction: column;
-}
-
-.aboutMe {
-    width: 250px;
-    height: auto;
-    padding-top: 40px;
+.element:nth-child(3) {
+    margin-top: -1040px;
     background-color: #F4C402;
+    width: 250px;
 }
 
 h3 {
@@ -67,11 +58,11 @@ h3 {
     text-align: center;
 }
 
-    .aboutMe-item h3 {
-        color: #F4C402;
-        background-color: #424242;
-        padding: 5px;
-    }
+.aboutMe-item h3 {
+    color: #F4C402;
+    background-color: #424242;
+    padding: 5px;
+}
 
 .item-fontSize {
     font-size: 13px;
@@ -121,83 +112,67 @@ h3 {
 }
 
 /* CV */
-.element:nth-child(3) {
-    margin-top: -1040px;
-    background-color: #F4C402;
-    width: 250px;
+.element:nth-child(2) {
+    margin-left: 260px;
+    height: auto;
+    margin-top: -180px;
 }
-
 .color-font {
     color: #424242;
 }
-
 .cv {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
 }
-
 .name h1 {
     font-size: 40px;
     font-weight: lighter;
 }
-
 .name h3 {
     margin-top: -50px;
 }
-
 mark {
     background-color: white;
     color: #F4C402;
 }
-
 .hr {
     border: 0.5px solid #F4C402;
     margin-top: -10px;
 }
-
 .hr-modif {
-    width: 60px;
-    margin-top: -15px;
+    width: 50px;
+    margin-top: -18px;
 }
-
 .marginTop-cv {
     margin-top: 90px;
 }
-
 h2 {
     font-weight: 400;
 }
-
 h4 {
     font-weight: 400;
 }
-
 .contenu-title {
     margin-right: 20px;
     color: #F4C402;
 }
-
 .dotCircle {
     color: #F4C402;
     width: 30px;
     margin-top: 11px;
 }
-
 .dot-Circle--little {
     font-size: 14px;
 }
-
 .dotCircle-little {
     font-size: 10px;
 }
-
 .date {
     width: 200px;
     text-align: left;
     font-size: 13px;
 }
-
 .date-item {
     width: 350px;
 }
@@ -208,11 +183,11 @@ h4 {
         width: 100%;
     }
 
-        .element:nth-child(1) {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .element:nth-child(1) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+     }
 
     .item-img {
         width: 145px;
