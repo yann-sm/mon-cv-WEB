@@ -8,10 +8,9 @@ body {
 }
 
 .conteneur {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .conteneur-row {
@@ -45,7 +44,7 @@ body {
 }
 /* SIDEBBAR */
 .element:nth-child(3) {
-    margin-top: -1040px;
+    margin-top: -1030px;
     background-color: #F4C402;
     width: 250px;
 }
@@ -55,6 +54,7 @@ h3 {
 }
 
 .aboutMe-item {
+    margin-top: -10px;
     text-align: center;
 }
 
@@ -82,7 +82,7 @@ h3 {
 .item-contact {
     text-align: left;
     margin-left: 30px;
-    height: 180px;
+    height: 185px;
 }
 
 .item-aboutMe {
@@ -98,7 +98,7 @@ h3 {
 }
 
 #loisir {
-    margin-top: 260px;
+    margin-top: 280px;
     padding-bottom: 20px;
 }
 
@@ -125,12 +125,14 @@ h3 {
     margin-right: 40px;
     margin-top: 30px;
 }
-.name h1 {
+.name h2 {
     font-size: 40px;
     font-weight: lighter;
+    padding-top: 20px;
 }
 .name h3 {
-    margin-top: -50px;
+    margin-top: -30px;
+
 }
 mark {
     background-color: white;
