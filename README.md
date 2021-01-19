@@ -13,3 +13,6 @@ Je pense qu'il me faudrait quelqu'un avec de solides bases en HTML et CSS. Je se
 Bien cordialement
 Votre CV n'est pas tout à fait à jour. Avant de rencontrer ce client potentiel, vous décidez de créer votre propre site web, 
 sur lequel vous publierez votre CV. Vous choisissez de développer votre site en HTML et CSS.
+
+Voici le lien vers la page web :
+https://yann-sm.github.io/mon-cv-WEB/
